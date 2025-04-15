@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard - LearnHub</title>
+  <link rel="stylesheet" href="p.css"/>
+</head>
+<body onload="initializeProgress()">
+  <nav>
+    <div class="logo">LearnHub</div>
+    <div class="nav-links">
+      <a href="i.html">Home</a>
+      <a href="d.html" class="active">Dashboard</a>
+      <a href="h.html">Courses</a>
+    </div>
+  </nav>
+
+  <div class="body">
+    <h1>Your Learning Progress</h1>
+
+    <div class="com">
+      <h2>JavaScript Essentials</h2>
+      <p>Progress: 70% Complete</p>
+      <div class="progress-bar">
+        <div class="progress-fill" id="js-progress"></div>
+      </div>
+    </div>
+
+    <div class="com">
+      <h2>HTML & CSS</h2>
+      <p>Progress: 50% Complete</p>
+      <div class="progress-bar">
+        <div class="progress-fill" id="html-css-progress"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="p5.js"></script>
+</body>
+</html>
