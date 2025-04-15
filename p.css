@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+  }
+  
+ 
+  nav {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  nav .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  nav .nav-links a.active,
+  nav .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .body {
+    padding: 2em;
+    max-width: 900px;
+    margin: auto;
+    color: blue;
+  }
+  
+  .com {
+    background: #FFFFFF;
+    padding: 1.5em;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5em;
+    color: blue;
+  }
+
+  .progress-bar {
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+    margin-top: 10px;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background: #10B981;
+    width: 0;
+    transition: width 0.5s ease;
+  }
+
+  .body {
+    background: linear-gradient(135deg, #1E3A8A, #3B82F6);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #10B981;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0f766e;
+  }
+
+  .video-container {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .video-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #1E3A8A;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  
+  
