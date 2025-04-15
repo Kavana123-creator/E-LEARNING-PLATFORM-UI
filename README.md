@@ -52,3 +52,10 @@ The e-learning platform is designed to be versatile and can be utilized in vario
 
 The development of this interactive e-learning platform leverages modern web technologies to create an accessible, engaging, and responsive educational tool. By focusing on user experience and interactivity, the platform aims to enhance the learning process and provide users with a valuable resource for education and skill development.
 
+# OUTPUT 
+
+![Image](https://github.com/user-attachments/assets/cbe33a18-d03b-4928-8a7c-d4e3beb3b032)
+
+![Image](https://github.com/user-attachments/assets/54fac83b-b2b4-4f09-b782-d587508095de)
+
+![Image](https://github.com/user-attachments/assets/ce40ee97-0c14-415c-b741-695bec9fb899)
